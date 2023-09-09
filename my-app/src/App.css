@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+.Main-Title {
+  text-align: center;
+  position: absolute; /* Position the text absolutely within the viewport */
+  top: 0; /* Align it to the top */
+  left: 50%; /* Align it horizontally at the center (adjust as needed) */
+  transform: translateX(-50%); /* Center it horizontally */
+  padding: 10px; /* Optional padding for spacing */
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  position: absolute; /* Position the logo absolutely within the viewport */
+  top: 0; /* Align it to the top */
+  left: 0; /* Align it to the left */
+}
+.basket-pic {
+  height: 5;
+  width: 100;
+
+
+}
+.App-logodup {
+  height: 10vmin;
+  pointer-events: none;
+  position: absolute; /* Position the logo absolutely within the viewport */
+  top: 0; /* Align it to the top */
+  right: 0; /* Align it to the right */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo, .App-logodup {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(52, 4, 13);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
